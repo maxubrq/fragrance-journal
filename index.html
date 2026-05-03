@@ -868,6 +868,8 @@
       <button class="view-btn" onclick="setView('list', this)" title="List">☰</button>
     </div>
     <button class="btn btn-primary" onclick="openModal()">+ Thêm</button>
+    <button class="btn btn-ghost" onclick="exportJSON()" title="Export toàn bộ data ra file JSON">↓ Export</button>
+    <label class="btn btn-ghost" style="cursor:pointer" title="Import từ file JSON đã export">↑ Import<input type="file" accept=".json" style="display:none" onchange="importJSON(event)"></label>
   </div>
 
   <div class="fragrances-grid" id="grid"></div>
@@ -1673,6 +1675,55 @@ function showToast(msg) {
   t.textContent = msg;
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// ===================== EXPORT / IMPORT =====================
+function exportJSON() {
+  const payload = {
+    meta: {
+      exported: new Date().toISOString(),
+      version: "2.0",
+      owner: "Trần Phát Hưng",
+      total: fragrances.length
+    },
+    fragrances
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const date = new Date().toISOString().slice(0, 10);
+  a.href = url;
+  a.download = `fragrance-journal-${date}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast(`Exported ${fragrances.length} chai → JSON`);
+}
+
+function importJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const parsed = JSON.parse(e.target.result);
+      // Support both raw array and {meta, fragrances} format
+      const incoming = Array.isArray(parsed) ? parsed : (parsed.fragrances || []);
+      if (!Array.isArray(incoming) || incoming.length === 0) {
+        showToast('File không hợp lệ hoặc rỗng'); return;
+      }
+      if (!confirm(`Import ${incoming.length} chai? Data hiện tại sẽ bị ghi đè.`)) return;
+      fragrances = incoming;
+      saveData();
+      renderCards();
+      renderRankings();
+      renderInsights();
+      showToast(`Imported ${incoming.length} chai thành công`);
+    } catch(err) {
+      showToast('Lỗi đọc file JSON');
+    }
+    event.target.value = ''; // reset input
+  };
+  reader.readAsText(file);
 }
 
 // ===================== INIT =====================
