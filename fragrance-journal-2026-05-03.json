@@ -1,0 +1,685 @@
+{
+  "meta": {
+    "exported": "2026-05-03T14:37:46.006Z",
+    "version": "2.0",
+    "owner": "Trần Phát Hưng",
+    "total": 16
+  },
+  "fragrances": [
+    {
+      "id": 1,
+      "brand": "Xerjoff",
+      "name": "Torino 21",
+      "status": "sample",
+      "color": "#0a32d1",
+      "topNotes": [
+        "Mint",
+        "Basil",
+        "Bergamot",
+        "Lemon"
+      ],
+      "heartNotes": [
+        "Petitgrain",
+        "Clary Sage",
+        "Jasmine",
+        "Vetiver"
+      ],
+      "baseNotes": [
+        "Cedarwood",
+        "Musk",
+        "Amberwood"
+      ],
+      "accords": [
+        "Aromatic",
+        "Citrus",
+        "Herbal",
+        "Fresh"
+      ],
+      "occasions": [
+        "Casual",
+        "Biển",
+        "Daily",
+        "Cuối tuần"
+      ],
+      "note": "Mojito trong một chai. Bám phi lý cho một chai fresh. WOW moment ngay từ lần đầu.",
+      "ratings": {
+        "overall": 9.5,
+        "sillage": 9,
+        "longevity": 9,
+        "wow": 10,
+        "versatility": 8,
+        "value": 7
+      }
+    },
+    {
+      "id": 2,
+      "brand": "Xerjoff",
+      "name": "Mefisto",
+      "status": "sample",
+      "color": "#1768d9",
+      "topNotes": [
+        "Bergamot",
+        "Lemon",
+        "Grapefruit"
+      ],
+      "heartNotes": [
+        "Basil",
+        "Geranium",
+        "Neroli"
+      ],
+      "baseNotes": [
+        "Cedarwood",
+        "Vetiver",
+        "Musk",
+        "Amber"
+      ],
+      "accords": [
+        "Aromatic",
+        "Citrus",
+        "Fresh",
+        "Woody"
+      ],
+      "occasions": [
+        "Văn phòng",
+        "Versatile",
+        "Daily"
+      ],
+      "note": "Đa dạng, thoải mái",
+      "ratings": {
+        "overall": 9,
+        "sillage": 7,
+        "longevity": 8,
+        "wow": 9,
+        "versatility": 9,
+        "value": 9
+      }
+    },
+    {
+      "id": 3,
+      "brand": "Louis Vuitton",
+      "name": "Imagination",
+      "status": "sample",
+      "color": "#1cd44a",
+      "topNotes": [
+        "Bergamot",
+        "Grapefruit",
+        "Aldehydes"
+      ],
+      "heartNotes": [
+        "Iris",
+        "Cedar",
+        "Ambroxan"
+      ],
+      "baseNotes": [
+        "Cashmeran",
+        "Musk",
+        "Sandalwood"
+      ],
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Citrus",
+        "Abstract"
+      ],
+      "occasions": [
+        "Văn phòng",
+        "Daily",
+        "Versatile"
+      ],
+      "note": "Clean mà không bình thường. Ambroxan float theo cách lạ. WOW nằm ở cái 'hover' cảm giác. Có thể là mùi hương văn phòng đỉnh.",
+      "ratings": {
+        "overall": 9.5,
+        "sillage": 8.5,
+        "longevity": 9,
+        "wow": 9.5,
+        "versatility": 9,
+        "value": 9
+      }
+    },
+    {
+      "id": 4,
+      "brand": "Ex Nihilo",
+      "name": "Blue Talisman",
+      "status": "sample",
+      "color": "#142ce1",
+      "topNotes": [
+        "Pear",
+        "Bergamot",
+        "Aldehydes"
+      ],
+      "heartNotes": [
+        "Cedar",
+        "Iris",
+        "Ambrofix"
+      ],
+      "baseNotes": [
+        "Musk",
+        "Sandalwood",
+        "Cashmeran"
+      ],
+      "accords": [
+        "Citrus",
+        "Woody",
+        "Musky",
+        "Modern"
+      ],
+      "occasions": [
+        "Daily",
+        "Versatile",
+        "Văn phòng"
+      ],
+      "note": "Hơi ngọt",
+      "ratings": {
+        "overall": 8.5,
+        "sillage": 9,
+        "longevity": 9,
+        "wow": 8,
+        "versatility": 7,
+        "value": 8.5
+      }
+    },
+    {
+      "id": 5,
+      "brand": "Clive Christian",
+      "name": "1872 Masculine",
+      "status": "sample",
+      "color": "#13cd32",
+      "topNotes": [
+        "Bergamot",
+        "Lemon",
+        "Juniper"
+      ],
+      "heartNotes": [
+        "Clary Sage",
+        "Freesia",
+        "Orris",
+        "Cardamom"
+      ],
+      "baseNotes": [
+        "Sandalwood",
+        "Musk",
+        "Cedar"
+      ],
+      "accords": [
+        "Aromatic",
+        "Citrus",
+        "Floral",
+        "Woody"
+      ],
+      "occasions": [
+        "Networking",
+        "Đám cưới",
+        "Tối",
+        "Quan trọng"
+      ],
+      "note": "Heart notes phức tạp nhất trong collection. Tầng giữa herb + sage + freesia là WOW. British old-money energy. Phù hợp với văn phòng, sự kiện",
+      "ratings": {
+        "overall": 9.5,
+        "sillage": 8,
+        "longevity": 8.5,
+        "wow": 9.5,
+        "versatility": 9,
+        "value": 9
+      }
+    },
+    {
+      "id": 6,
+      "brand": "Creed",
+      "name": "Silver Mountain Water",
+      "status": "sample",
+      "color": "#eef4f6",
+      "topNotes": [
+        "Bergamot",
+        "Mandarin",
+        "Green Tea"
+      ],
+      "heartNotes": [
+        "Black Currant",
+        "Green Tea"
+      ],
+      "baseNotes": [
+        "Musk",
+        "Sandalwood",
+        "Vetiver"
+      ],
+      "accords": [
+        "Aquatic",
+        "Citrus",
+        "Fresh",
+        "Clean"
+      ],
+      "occasions": [
+        "Văn phòng",
+        "Daily",
+        "Fresh"
+      ],
+      "note": "Đa dạng, linh hoạt, giống như đang đứng trên một đỉnh núi tuyết.",
+      "ratings": {
+        "overall": 8.5,
+        "sillage": 8,
+        "longevity": 9,
+        "wow": 7.5,
+        "versatility": 8,
+        "value": 8.5
+      }
+    },
+    {
+      "id": 7,
+      "brand": "Maison Margiela Replica",
+      "name": "Jazz Club",
+      "status": "sample",
+      "color": "#bd630a",
+      "topNotes": [
+        "Pink Pepper",
+        "Neroli",
+        "Lemon"
+      ],
+      "heartNotes": [
+        "Clary Sage",
+        "Tobacco Leaf",
+        "Vetiver"
+      ],
+      "baseNotes": [
+        "Vanilla",
+        "Musk",
+        "Rum"
+      ],
+      "accords": [
+        "Warm",
+        "Tobacco",
+        "Gourmand",
+        "Woody"
+      ],
+      "occasions": [
+        "Mùa lạnh",
+        "Du lịch",
+        "Tối đặc biệt"
+      ],
+      "note": "Mùa lạnh king. Đà Lạt / Hà Nội hoặc du lịch nước ngoài. Không daily ở HCMC.",
+      "ratings": {
+        "overall": 8,
+        "sillage": 9,
+        "longevity": 9,
+        "wow": 7,
+        "versatility": 7,
+        "value": 8
+      }
+    },
+    {
+      "id": 8,
+      "brand": "Lalique",
+      "name": "Encre Noire",
+      "status": "sample",
+      "color": "#4d4105",
+      "topNotes": [
+        "Cypress",
+        "Aldehydes"
+      ],
+      "heartNotes": [
+        "Vetiver",
+        "Cashmere Wood"
+      ],
+      "baseNotes": [
+        "Musk",
+        "Woody Notes"
+      ],
+      "accords": [
+        "Woody",
+        "Smoky",
+        "Vetiver",
+        "Dark"
+      ],
+      "occasions": [
+        "Mùa lạnh",
+        "Một mình",
+        "Introspective"
+      ],
+      "note": "Bí ẩn, tối, không cần ai hiểu. Travel collection.",
+      "ratings": {
+        "overall": 8,
+        "sillage": 7.5,
+        "longevity": 9,
+        "wow": 7.5,
+        "versatility": 7.5,
+        "value": 7.5
+      }
+    },
+    {
+      "id": 9,
+      "brand": "Giorgio Armani",
+      "name": "Stronger With You",
+      "status": "sample",
+      "color": "#6f2906",
+      "topNotes": [
+        "Pink Pepper",
+        "Violet Leaves",
+        "Cardamom"
+      ],
+      "heartNotes": [
+        "Chestnut",
+        "Sage",
+        "Jasmine"
+      ],
+      "baseNotes": [
+        "Vanilla",
+        "Amber",
+        "Cedarwood",
+        "Patchouli"
+      ],
+      "accords": [
+        "Warm",
+        "Spicy",
+        "Vanilla",
+        "Woody"
+      ],
+      "occasions": [
+        "Mùa lạnh",
+        "Tối",
+        "Thu đông"
+      ],
+      "note": "Travel collection. Quá nóng cho HCMC hàng ngày.",
+      "ratings": {
+        "overall": 8,
+        "sillage": 8.5,
+        "longevity": 9,
+        "wow": 7.5,
+        "versatility": 7.5,
+        "value": 7.5
+      }
+    },
+    {
+      "id": 10,
+      "brand": "Ormonde Jayne",
+      "name": "Verano",
+      "status": "sample",
+      "color": "#0b5684",
+      "topNotes": [
+        "Grapefruit",
+        "Bergamot",
+        "Juniper",
+        "Clary Sage",
+        "Cardamom"
+      ],
+      "heartNotes": [
+        "Tea",
+        "Violet",
+        "Rose",
+        "Magnolia"
+      ],
+      "baseNotes": [
+        "Tobacco Leaf",
+        "Suede",
+        "Cashmeran",
+        "Ambergris",
+        "Sandalwood"
+      ],
+      "accords": [
+        "Citrus",
+        "Aromatic",
+        "Tobacco",
+        "Leather"
+      ],
+      "occasions": [
+        "Buổi tối",
+        "Versatile"
+      ],
+      "note": "Grapefruit WOW ở opening. Base không ngửi rõ trên da. Cần thêm data points về skin chemistry.",
+      "ratings": {
+        "overall": 8.5,
+        "sillage": 7.5,
+        "longevity": 7,
+        "wow": 8,
+        "versatility": 8.5,
+        "value": 8.5
+      }
+    },
+    {
+      "id": 11,
+      "brand": "Roja Dove",
+      "name": "Isola Blu",
+      "status": "wishlist",
+      "color": "#3a5a8a",
+      "topNotes": [
+        "Bergamot",
+        "Lime",
+        "Lemon",
+        "Lavender",
+        "Thyme"
+      ],
+      "heartNotes": [
+        "Apple",
+        "Blackcurrant",
+        "Orange Blossom",
+        "Coconut",
+        "Jasmine"
+      ],
+      "baseNotes": [
+        "Cedar",
+        "Birch",
+        "Juniper",
+        "Ambergris",
+        "Oakmoss",
+        "Patchouli"
+      ],
+      "accords": [
+        "Citrus",
+        "Fruity",
+        "Aromatic",
+        "Woody"
+      ],
+      "occasions": [
+        "Tối",
+        "Versatile",
+        "Special"
+      ],
+      "note": "Heart complexity cao như CC 1872 nhưng Mediterranean vibe. WOW ở heart — an toàn hơn Oceania với skin chemistry.",
+      "ratings": {
+        "overall": 0,
+        "sillage": 0,
+        "longevity": 0,
+        "wow": 0,
+        "versatility": 0,
+        "value": 0
+      }
+    },
+    {
+      "id": 12,
+      "brand": "Roja Dove",
+      "name": "Oceania",
+      "status": "wishlist",
+      "color": "#2a6a7a",
+      "topNotes": [
+        "Citrus",
+        "Grapefruit",
+        "Lemon",
+        "Mandarin",
+        "Lime"
+      ],
+      "heartNotes": [
+        "Geranium",
+        "Jasmine",
+        "Violet"
+      ],
+      "baseNotes": [
+        "Moss",
+        "Vetiver",
+        "Sandalwood",
+        "Orris",
+        "Ambergris"
+      ],
+      "accords": [
+        "Citrus",
+        "Aquatic",
+        "Floral",
+        "Ethereal"
+      ],
+      "occasions": [
+        "Biển",
+        "Coastal",
+        "Summer"
+      ],
+      "note": "Cần sample trước. Rủi ro skin chemistry — WOW ở ambergris base. Nếu base chìm chỉ còn citrus + floral.",
+      "ratings": {
+        "overall": 0,
+        "sillage": 0,
+        "longevity": 0,
+        "wow": 0,
+        "versatility": 0,
+        "value": 0
+      }
+    },
+    {
+      "brand": "Prada",
+      "name": "Prada l’homme",
+      "status": "sample",
+      "color": "#868583",
+      "topNotes": [
+        "Hạ Cà Rốt",
+        "Thảo Quả",
+        "Tiêu Đen",
+        "Neroli"
+      ],
+      "heartNotes": [
+        "Diên Vĩ",
+        "Phong Lữ",
+        "Hoa Tím"
+      ],
+      "baseNotes": [
+        "Gỗ Đàn Hương",
+        "Gỗ Tuyết Tùng",
+        "Quảng Hoắc Hương",
+        "Hổ Phách"
+      ],
+      "accords": [
+        "Hoa",
+        "Phấn",
+        "Sạch Sẽ"
+      ],
+      "occasions": [
+        "Văn Phòng"
+      ],
+      "note": "Có thể là một trong những mùi hương văn phòng tốt nhất vì sạch sẽ, không quá khác biệt và nịn mũi.",
+      "ratings": {
+        "overall": 8.5,
+        "sillage": 7.5,
+        "longevity": 6,
+        "wow": 7.5,
+        "versatility": 8.5,
+        "value": 8.5
+      },
+      "id": 1777818054871
+    },
+    {
+      "brand": "Diptyque",
+      "name": "Philosykos",
+      "status": "sample",
+      "color": "#c6c1b9",
+      "topNotes": [
+        "Lá Sung",
+        "Trái Sung"
+      ],
+      "heartNotes": [
+        "Hương Xanh",
+        "Trái Dừa"
+      ],
+      "baseNotes": [
+        "Lá Cây",
+        "Hương Gỗ",
+        "Tuyết Tùng"
+      ],
+      "accords": [
+        "Sạch sẽ",
+        "Thanh Lịch"
+      ],
+      "occasions": [
+        "Văn Phòng",
+        "Casual"
+      ],
+      "note": "Khá mát, lạ với mùi của trái sung, ngọt vừa đủ, kể cả trong thời tiết nóng như ở HCMC cũng không bị quá.",
+      "ratings": {
+        "overall": 8.3,
+        "sillage": 8,
+        "longevity": 7.5,
+        "wow": 8,
+        "versatility": 8,
+        "value": 8
+      },
+      "id": 1777818339517
+    },
+    {
+      "brand": "Maison Francis Kurkdjian (MFK)",
+      "name": "Masculin Pluriel",
+      "status": "sample",
+      "color": "#6f6e6d",
+      "topNotes": [
+        "Gỗ Tuyết Tưng",
+        "Hoa Oải Hương"
+      ],
+      "heartNotes": [
+        "Cây Hoắc Hương",
+        "Cỏ Hương Bài"
+      ],
+      "baseNotes": [
+        "Da Thuộc",
+        "Gỗ"
+      ],
+      "accords": [
+        "Nam Tính",
+        "Sang Trọng"
+      ],
+      "occasions": [
+        "Văn Phòng",
+        "Tiệc"
+      ],
+      "note": "Phù hợp với văn phòng",
+      "ratings": {
+        "overall": 8.5,
+        "sillage": 8,
+        "longevity": 8,
+        "wow": 7.5,
+        "versatility": 7.5,
+        "value": 8
+      },
+      "id": 1777818616047
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Ombre Leather",
+      "status": "sample",
+      "color": "#3f3a36",
+      "topNotes": [
+        "Bạch Đậu Khấu"
+      ],
+      "heartNotes": [
+        "Hoa Nhài Sambac",
+        "Da Thuộc"
+      ],
+      "baseNotes": [
+        "Hổ Phách",
+        "Hoắc Hương",
+        "Rêu Sồi Moss"
+      ],
+      "accords": [
+        "Tiệc tùng",
+        "đồ da",
+        "trời lạnh",
+        "từng trải"
+      ],
+      "occasions": [
+        "Tiệc tùng",
+        "solo trip",
+        "lạnh"
+      ],
+      "note": "Rất hay, thơm, hấp dẫn, nịnh mũi ngay từ đầu, phù hợp với tiệc tùng, đồ da, và solo trip, speakeasy bar, pub",
+      "ratings": {
+        "overall": 8.5,
+        "sillage": 9,
+        "longevity": 9,
+        "wow": 8,
+        "versatility": 7,
+        "value": 7.5
+      },
+      "id": 1777818848470
+    }
+  ]
+}
