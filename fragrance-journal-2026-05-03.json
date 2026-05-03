@@ -1,6 +1,6 @@
 {
   "meta": {
-    "exported": "2026-05-03T14:37:46.006Z",
+    "exported": "2026-05-03T14:53:10.677Z",
     "version": "2.0",
     "owner": "Trần Phát Hưng",
     "total": 16
@@ -48,7 +48,7 @@
         "longevity": 9,
         "wow": 10,
         "versatility": 8,
-        "value": 7
+        "value": 9.5
       }
     },
     {
@@ -529,8 +529,9 @@
       }
     },
     {
+      "id": 1777818054871,
       "brand": "Prada",
-      "name": "Prada l’homme",
+      "name": "Prada l'homme",
       "status": "sample",
       "color": "#868583",
       "topNotes": [
@@ -566,10 +567,10 @@
         "wow": 7.5,
         "versatility": 8.5,
         "value": 8.5
-      },
-      "id": 1777818054871
+      }
     },
     {
+      "id": 1777818339517,
       "brand": "Diptyque",
       "name": "Philosykos",
       "status": "sample",
@@ -603,16 +604,16 @@
         "wow": 8,
         "versatility": 8,
         "value": 8
-      },
-      "id": 1777818339517
+      }
     },
     {
+      "id": 1777818616047,
       "brand": "Maison Francis Kurkdjian (MFK)",
       "name": "Masculin Pluriel",
       "status": "sample",
       "color": "#6f6e6d",
       "topNotes": [
-        "Gỗ Tuyết Tưng",
+        "Gỗ Tuyết Tùng",
         "Hoa Oải Hương"
       ],
       "heartNotes": [
@@ -639,10 +640,10 @@
         "wow": 7.5,
         "versatility": 7.5,
         "value": 8
-      },
-      "id": 1777818616047
+      }
     },
     {
+      "id": 1777818848470,
       "brand": "Tom Ford",
       "name": "Ombre Leather",
       "status": "sample",
@@ -661,14 +662,14 @@
       ],
       "accords": [
         "Tiệc tùng",
-        "đồ da",
-        "trời lạnh",
-        "từng trải"
+        "Đồ da",
+        "Trời lạnh",
+        "Từng trải"
       ],
       "occasions": [
         "Tiệc tùng",
-        "solo trip",
-        "lạnh"
+        "Solo trip",
+        "Lạnh"
       ],
       "note": "Rất hay, thơm, hấp dẫn, nịnh mũi ngay từ đầu, phù hợp với tiệc tùng, đồ da, và solo trip, speakeasy bar, pub",
       "ratings": {
@@ -678,8 +679,7 @@
         "wow": 8,
         "versatility": 7,
         "value": 7.5
-      },
-      "id": 1777818848470
+      }
     }
   ]
 }
